@@ -106,7 +106,6 @@ Ember.C3.ChartComponent = Ember.Component.extend({
         if (Ember.isEqual(self.get('_chart'), undefined)) {
             // Empty, create it.
             var container = self.get('element');
-            console.log(container);
             if (Ember.isEqual(container, undefined)) {
                 return undefined;
             } else {
